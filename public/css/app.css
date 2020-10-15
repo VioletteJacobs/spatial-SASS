@@ -1,67 +1,3 @@
-body {
-  margin: 0%;
-}
-
-a {
-  text-decoration: none;
-}
-
-ul {
-  list-style: none;
-}
-
-.flex {
-  display: flex;
-}
-
-.column {
-  flex-direction: column;
-}
-
-h2 {
-  color: #e79e6d;
-  font-size: 40px;
-}
-
-.button_red {
-  background-color: #e63030;
-  color: #ffffff;
-  padding: 10px;
-  border-radius: 5%;
-  border: none;
-  margin: 20px;
-}
-
-.button_red:hover {
-  opacity: 50%;
-}
-
-header {
-  background-image: url(../../public/images/banner.jpg);
-  background-size: cover;
-  color: white;
-}
-
-header .header_nav nav ul {
-  justify-content: flex-end;
-}
-
-header .header_nav nav ul li {
-  margin: 10px;
-}
-
-header .header_nav nav ul li:hover {
-  opacity: 50%;
-}
-
-header .header_h1 {
-  align-items: center;
-}
-
-header .header_h1 span {
-  padding: 20px;
-}
-
 .partie1 {
   padding: 40px 100px;
 }
@@ -124,17 +60,17 @@ header .header_h1 span {
   flex-wrap: wrap;
 }
 
-.partie3 span .trois_cards .card h4 {
+.partie3 span .trois_cards .card_double .card h4 {
   font-size: 20px;
   color: #635656;
 }
 
-.partie3 span .trois_cards .card span {
+.partie3 span .trois_cards .card_double .card span {
   font-size: 15px;
   color: #807272;
 }
 
-.partie3 span .trois_cards .card .card_image {
+.partie3 span .trois_cards .card_double .card .card_image {
   border-radius: 50%;
 }
 
